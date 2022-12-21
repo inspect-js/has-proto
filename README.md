@@ -1,4 +1,4 @@
-# can-set-proto <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
+# has-proto <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
 [![github actions][actions-image]][actions-url]
 [![coverage][codecov-image]][codecov-url]
@@ -7,7 +7,7 @@
 
 [![npm badge][npm-badge-png]][package-url]
 
-Does this environment have the ability to set the [[Prototype]] of an object?
+Does this environment have the ability to set the [[Prototype]] of an object on creation with `__proto__`?
 
 ## Example
 

@@ -5,7 +5,7 @@ var hasProto = require('../');
 
 test('hasProto', function (t) {
 	var result = hasProto();
-	t.equal(typeof result, 'boolean', 'returns a boolean');
+	t.equal(typeof result, 'boolean', 'returns a boolean (' + result + ')');
 
 	var obj = { __proto__: null };
 	if (result) {

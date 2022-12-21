@@ -1,7 +1,7 @@
 {
 	"name": "has-proto",
 	"version": "1.0.0",
-	"description": "Does this environment have the ability to get or set the [[Prototype]] of an object with `__proto__`?",
+	"description": "Does this environment have the ability to get the [[Prototype]] of an object on creation with `__proto__`?",
 	"main": "index.js",
 	"exports": {
 		".": "./index.js",
@@ -21,7 +21,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/inspect-js/can-set-proto.git"
+		"url": "git+https://github.com/inspect-js/has-proto.git"
 	},
 	"keywords": [
 		"prototype",
@@ -39,9 +39,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/inspect-js/can-set-proto/issues"
+		"url": "https://github.com/inspect-js/has-proto/issues"
 	},
-	"homepage": "https://github.com/inspect-js/can-set-proto#readme",
+	"homepage": "https://github.com/inspect-js/has-proto#readme",
 	"testling": {
 		"files": "test/index.js"
 	},
