@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/inspect-js/has-proto/compare/v1.0.0...v1.0.1) - 2022-12-21
+
+### Commits
+
+- [meta] correct URLs and description [`ef34483`](https://github.com/inspect-js/has-proto/commit/ef34483ca0d35680f271b6b96e35526151b25dfc)
+- [patch] add an additional criteria [`e81959e`](https://github.com/inspect-js/has-proto/commit/e81959ed7c7a77fbf459f00cb4ef824f1099497f)
+- [Dev Deps] update `aud` [`2bec2c4`](https://github.com/inspect-js/has-proto/commit/2bec2c47b072b122ff5443fba0263f6dc649531f)
+
 ## v1.0.0 - 2022-12-12
 
 ### Commits
