@@ -12,6 +12,7 @@
 		"prepublishOnly": "safe-publish-latest",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=js,mjs .",
+		"postlint": "tsc -p .",
 		"pretest": "npm run lint",
 		"tests-only": "tape 'test/**/*.js'",
 		"test": "npm run tests-only",
@@ -47,13 +48,15 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.0",
+		"@types/tape": "^5.6.4",
 		"aud": "^2.0.4",
 		"auto-changelog": "^2.4.0",
 		"eslint": "=8.8.0",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.1",
 		"safe-publish-latest": "^2.0.0",
-		"tape": "^5.7.5"
+		"tape": "^5.7.5",
+		"typescript": "next"
 	},
 	"engines": {
 		"node": ">= 0.4"
