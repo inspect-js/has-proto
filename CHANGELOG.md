@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/inspect-js/has-proto/compare/v1.0.2...v1.0.3) - 2024-02-19
+
+### Commits
+
+- [types] add missing declaration file [`26ecade`](https://github.com/inspect-js/has-proto/commit/26ecade05d253bb5dc376945ee3186d1fbe334f8)
+
 ## [v1.0.2](https://github.com/inspect-js/has-proto/compare/v1.0.1...v1.0.2) - 2024-02-19
 
 ### Commits
