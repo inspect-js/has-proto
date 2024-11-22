@@ -13,7 +13,7 @@
 		"prepublishOnly": "safe-publish-latest",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"lint": "eslint --ext=js,mjs .",
-		"postlint": "tsc -p .",
+		"postlint": "tsc -p . && attw -P",
 		"pretest": "npm run lint",
 		"tests-only": "tape 'test/**/*.js'",
 		"test": "npm run tests-only",
@@ -48,6 +48,7 @@
 		"files": "test/index.js"
 	},
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.17.0",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.0",
 		"@types/tape": "^5.6.4",
