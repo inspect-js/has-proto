@@ -53,6 +53,7 @@
 		"@ljharb/tsconfig": "^0.2.0",
 		"@types/tape": "^5.6.5",
 		"auto-changelog": "^2.5.0",
+		"encoding": "^0.1.13",
 		"eslint": "=8.8.0",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.1",
