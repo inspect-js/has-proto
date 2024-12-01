@@ -61,10 +61,10 @@
 		"encoding": "^0.1.13",
 		"eslint": "=8.8.0",
 		"evalmd": "^0.0.19",
-		"gopd": "^1.0.1",
+		"gopd": "^1.1.0",
 		"in-publish": "^2.0.1",
 		"npmignore": "^0.3.1",
-		"reflect.getprototypeof": "^1.0.6",
+		"reflect.getprototypeof": "^1.0.7",
 		"safe-publish-latest": "^2.0.0",
 		"tape": "^5.9.0",
 		"typescript": "next"
