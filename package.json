@@ -1,6 +1,6 @@
 {
 	"name": "has-proto",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Does this environment have the ability to get the [[Prototype]] of an object on creation with `__proto__`?",
 	"main": "index.js",
 	"exports": {
