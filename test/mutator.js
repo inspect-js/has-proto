@@ -7,7 +7,7 @@ var gOPD = require('gopd');
 var hasProto = require('../');
 var hasProtoMutator = require('../mutator');
 
-var getter = require('../helpers/getDunder');
+var getter = require('dunder-proto/get');
 
 test('hasProtoMutator', function (t) {
 	var result = hasProtoMutator();

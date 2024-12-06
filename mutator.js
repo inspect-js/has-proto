@@ -7,7 +7,7 @@ var test = {
 	foo: {}
 };
 
-var setter = require('./helpers/setDunder');
+var setter = require('dunder-proto/set');
 
 /** @type {import('./mutator')} */
 module.exports = function hasMutator() {

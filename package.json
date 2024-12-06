@@ -54,7 +54,6 @@
 		"@arethetypeswrong/cli": "^0.17.0",
 		"@ljharb/eslint-config": "^21.1.1",
 		"@ljharb/tsconfig": "^0.2.0",
-		"@types/call-bind": "^1.0.5",
 		"@types/gopd": "^1.0.3",
 		"@types/tape": "^5.6.5",
 		"auto-changelog": "^2.5.0",
@@ -87,6 +86,6 @@
 		]
 	},
 	"dependencies": {
-		"call-bind": "^1.0.7"
+		"dunder-proto": "^1.0.0"
 	}
 }
